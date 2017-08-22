@@ -21,7 +21,7 @@ address:  Mermoz DAKAR SENEGAL
 slogan: Créateur de succès
 our_values: Transparence, Excellence, Disponibilité, Simplicité
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://capella.net" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://capella-services.github.io/capella" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Capella
 github_username:  Capella
 git_repo: capella
