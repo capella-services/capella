@@ -43,6 +43,10 @@
 .text-white {
   color: #fff;
 }
+
+.descript{
+  text-transform : uppercase;
+}
 .text-primary {
   color: #1695a3;
 }
@@ -1045,9 +1049,12 @@ header.signup:before {
   padding-bottom: 121px;
 }
 header.centered-text h1 {
-  font-size: 40px;
+  font-family: "Ubuntu Condensed";
+  font-size: 100px;
+  margin-top: 100px;
   margin-bottom: 24px;
   line-height: 56px;
+  text-shadow: 1px 2px 4px #7a5555;
 }
 header.centered-text .btn {
   margin-right: 16px;
