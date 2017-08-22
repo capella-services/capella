@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'fr' }}">
+
+{% include head.html %}
+
+<body>
+
+
+<div class="loader">
+    <div class="spinner">
+        <div class="double-bounce1"></div>
+        <div class="double-bounce2"></div>
+    </div>
+</div>
+
+{% include nav.html %}
+
+
+<div class="main-container">
+    {{ content }}
+</div>
+
+{% include footer.html %}
+
+<script src="{{ site.url }}/js/jquery.min.js"></script>
+<script src="{{ site.url }}/js/jquery.plugin.min.js"></script>
+<script src="{{ site.url }}/js/bootstrap.min.js"></script>
+<script src="{{ site.url }}/js/jquery.flexslider-min.js"></script>
+<script src="{{ site.url }}/js/smooth-scroll.min.js"></script>
+<script src="{{ site.url }}/js/skrollr.min.js"></script>
+<script src="{{ site.url }}/js/spectragram.min.js"></script>
+<script src="{{ site.url }}/js/scrollReveal.min.js"></script>
+<script src="{{ site.url }}/js/isotope.min.js"></script>
+<script src="{{ site.url }}/js/twitterFetcher_v10_min.js"></script>
+<script src="{{ site.url }}/js/lightbox.min.js"></script>
+<script src="{{ site.url }}/js/jquery.countdown.min.js"></script>
+<script src="{{ site.url }}/js/scripts.js"></script>
+
+</body>
+
+</html>
