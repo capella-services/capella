@@ -6,35 +6,30 @@
 <body>
 
 
-<div class="loader">
-    <div class="spinner">
-        <div class="double-bounce1"></div>
-        <div class="double-bounce2"></div>
-    </div>
-</div>
-
+<!-- Topbar -->
 {% include nav.html %}
+<!-- END Topbar -->
 
+<!-- Header -->
+{% include header.html %}
+<!-- END Header -->
 
-<div class="main-container">
+<!-- Main container -->
+<main class="main-content">
     {{ content }}
-</div>
+</main>
+<!-- END Main container -->
 
+
+<!-- Footer -->
 {% include footer.html %}
+<!-- END Footer -->
 
-<script src="{{ site.url }}/js/jquery.min.js"></script>
-<script src="{{ site.url }}/js/jquery.plugin.min.js"></script>
-<script src="{{ site.url }}/js/bootstrap.min.js"></script>
-<script src="{{ site.url }}/js/jquery.flexslider-min.js"></script>
-<script src="{{ site.url }}/js/smooth-scroll.min.js"></script>
-<script src="{{ site.url }}/js/skrollr.min.js"></script>
-<script src="{{ site.url }}/js/spectragram.min.js"></script>
-<script src="{{ site.url }}/js/scrollReveal.min.js"></script>
-<script src="{{ site.url }}/js/isotope.min.js"></script>
-<script src="{{ site.url }}/js/twitterFetcher_v10_min.js"></script>
-<script src="{{ site.url }}/js/lightbox.min.js"></script>
-<script src="{{ site.url }}/js/jquery.countdown.min.js"></script>
-<script src="{{ site.url }}/js/scripts.js"></script>
+
+<!-- Scripts -->
+<script src="{{ site.url }}/js/core.min.js"></script>
+<script src="{{ site.url }}/js/thesaas.min.js"></script>
+<script src="{{ site.url }}/js/script.js"></script>
 
 </body>
 

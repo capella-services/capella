@@ -1,62 +1,21 @@
+<!-- Topbar -->
+<nav class="topbar topbar-sticky">
+    <div class="container">
 
-<div class="nav-container">
-    <nav class="top-bar overlay-bar">
-        <div class="container">
-
-            <div class="row utility-menu">
-                <div class="col-sm-12">
-                    <div class="utility-inner clearfix">
-                        <span class="alt-font"><i class="icon icon_pin"></i> Mermoz Dakar</span>
-
-                        <div class="pull-right">
-                            <a href="#" class="language"><img alt="French" src="img/french.png"></a>
-                            <a href="#" class="language"><img alt="English" src="img/english.png"></a>
-                        </div>
-                    </div>
-                </div>
-            </div><!--end of row-->
+        <div class="topbar-left">
+            <a class="topbar-brand" href="#">
+                <img class="logo-default" src="img/logo.png" alt="logo">
+                <img class="logo-inverse" src="img/logo-light.png" alt="logo">
+            </a>
+        </div>
 
 
-            <div class="row nav-menu">
-                <div class="col-sm-3 col-md-2 columns">
-                    <a href="/">
-                        <img class="logo logo-light" alt="Logo" src="img/logohorizblanc.png">
-                        <img class="logo logo-dark" alt="Logo" src="img/logohoriz.png">
-                    </a>
-                </div>
+        <div class="topbar-right">
+            <a class="btn btn-sm btn-danger mr-4" href="#" data-scrollto="leproduit">Le produit</a>
+            <a class="btn btn-sm btn-outline btn-danger hidden-sm-down" href="#" data-scrollto="pricing">Nos offres</a>
+        </div>
 
-                <div class="col-sm-9 col-md-10 columns">
-                    <ul class="menu">
-                        {% for member in site.data.menu %}
-                        <li>
-                            <a href="{{ member.url }}">
-                                {{ member.title }}
-                            </a>
-                        </li>
-                        {% endfor %}
-                    </ul>
+    </div>
+</nav>
 
-                    <ul class="social-icons text-right">
-                        <li>
-                            <a href="#">
-                                <i class="icon social_twitter"></i>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                <i class="icon social_facebook"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div><!--end of row-->
-
-            <div class="mobile-toggle">
-                <i class="icon icon_menu"></i>
-            </div>
-
-        </div><!--end of container-->
-    </nav>
-
-</div>
+<!-- END Topbar -->
