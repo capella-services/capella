@@ -31,6 +31,10 @@
 <script src="{{ site.url }}/js/thesaas.min.js"></script>
 <script src="{{ site.url }}/js/script.js"></script>
 
+{% if jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
+
 </body>
 
 </html>
